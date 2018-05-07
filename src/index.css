@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.none {
+  display: none;
+}
+p {
+  margin: 0 0 5px;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 600px;
+  margin: 0 0 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+  margin-bottom: 15px;
+}
+
+.news__author {
+  text-decoration: underline;
+  color: #007DDC;
+}
+.news__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+.test-input {
+  margin: 15px 0 5px 0;
+}
